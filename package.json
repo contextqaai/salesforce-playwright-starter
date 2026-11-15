@@ -11,7 +11,9 @@
     "test:headed": "playwright test --headed",
     "test:mutations": "node scripts/verify-mutations.mjs",
     "demo": "node demo/server.mjs",
-    "report": "playwright show-report"
+    "report": "playwright show-report",
+    "test:native": "node native/run.mjs",
+    "test:native:preflight": "node --test native/preflight.test.mjs"
   },
   "devDependencies": {
     "@playwright/test": "1.58.2"
